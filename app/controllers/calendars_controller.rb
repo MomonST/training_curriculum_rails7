@@ -43,6 +43,7 @@ class CalendarsController < ApplicationController
         wday: wdays[today_date.wday],  # ← ここで曜日もハッシュに追加！
         plans: today_plans
       }
+      
       @week_days.push(days)
     end
   end
